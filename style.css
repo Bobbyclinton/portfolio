@@ -1,0 +1,325 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background: black;
+}
+/* all similar content styling codes */
+section{
+  padding: 100px 0;
+}
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+/* Navigation bar styling  */
+.navbar{
+  position: fixed;
+  width: 100%;
+  padding: 30px 0;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 0.3s ease-out;
+}
+.navbar.sticky{
+  padding: 15px 0;
+  background: #ff00dd;
+}
+.navbar.sticky a:hover{
+  color: black;
+}
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  float: right;
+}
+
+
+/* Navigation links styling */
+.menu a{
+  color: white;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  padding: 15px;
+  text-decoration: none ;
+}
+.menu a:hover{
+  color: #ff00dd;
+}
+/* Home section styling */
+.Home{
+  height: 100vh;
+}
+.Home.text{
+  margin-top: 50%;
+  margin-left: 30%;
+}
+.Home-text{
+  margin-left: 10%;
+}
+.Home p.text-1{
+  color: #ff00dd;
+  font-size: 42px;
+  margin: 50PX 0;
+  margin-top: 10%;
+}
+.Home p.name{
+  color: white;
+  font-size: 70px;
+  margin-top: -2%;
+}
+.Home p.text-3{
+  color: white;
+  font-size: 40px;
+  margin: 50px 0;
+  margin-top: -2%;
+}
+.Home button{
+  border-color: #ff00dd;
+  border: solid 2px;
+  border-color: #ff00dd;
+  border-radius: 15px;
+  padding: 20px 40px;
+  text-align: left;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  margin-top: -1%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Home button:hover{
+  color: black;
+  background-color: #ff00dd;
+  padding: 22px 42px;
+  border: #ff00dd;
+  border: solid 2px;
+  border-color: #ff00dd;
+}
+/* about section */
+.about{
+  height: 80vh;
+  width: 100vw;
+  background-color: white;
+  border: none;
+}
+.aboutSection{
+  display: flex;
+  margin-left: 10%;
+}
+.aboutWriteUp{
+  width: 800px;
+}
+.about p{
+  color: black;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p.abt{
+  color: black;
+  font-size: 40px;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: 120px;
+} 
+.about button{
+  border-color: #ff00dd;
+  border: solid 2px;
+  border-radius: 15px;
+  padding: 20px 40px;
+  text-align: left;
+  background-color: white;
+  color: #ff00dd;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.aboutImage img{
+  height: 22rem;
+  padding-right: 100px;
+  margin-top: 150px;
+  width: 22rem;
+}
+
+.about button:hover{
+  color: black;
+  background-color: #ff00dd;
+  padding: 22px 42px;
+  border: #ff00dd;
+}
+
+/* My services section */
+
+
+.servicesHeading{
+  padding-bottom: 50px;
+  
+}
+.title{
+  color: white;
+  font-size: 40px;
+  align-items: center;
+  margin-left: 41.5%;
+
+}
+.afterText{
+  color: #ff00dd;
+  margin-left: 45%;
+}
+hr{
+  width: 300px;
+  height: 5px;
+  background-color: white;
+  margin-left: 38%;
+  margin-top: 20px;
+}
+.serviceBox{
+  display: flex;
+  margin-left: 5%;
+}
+
+.firstService{
+  background-color: #303030;
+  width:  400px;
+  height: 200px;
+  margin: 15px;
+  border-radius: 5px;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.firstService div{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+.firstService:hover{
+  background-color: #ff00dd;
+  transition: all 0.1s ease-in-out;
+  font-size: 16.1px;
+}
+.secondService{
+  background-color: #303030;
+  width:  400px;
+  height: 200px;
+  margin: 15px;
+  border-radius: 5px;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.secondService:hover{
+  background-color: #ff00dd;
+  transition: all 0.3 ease;
+  font-size: 16.1px;
+}
+.secondService div, .thirdService div, .firstService h1, .secondService h1, .thirdService h1{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.thirdService{
+  background-color: #303030;
+  width:  400px;
+  height: 200px;
+  margin: 15px;
+  border-radius: 5px;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.thirdService:hover{
+  background-color: #ff00dd;
+  transition: all 0.3 ease;
+  font-size: 16.1px;
+}
+/* contact me section styling */
+.contact-section{
+  height: 80vh;
+  background-color: white;
+}
+.contact{
+  display: flex;
+  height: 100vh;
+  margin-left: 10%;
+}
+.contactMe{
+  font-size: 40px;
+  color: #ff00dd;
+  margin-left: 40%;
+  margin-top: -5%;
+}
+.touch{
+  font-size: 20px;
+}
+.formInputs{
+  margin-left: 20%;
+}
+i.fa{
+  color: #ff00dd;
+  font-size: 40px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+}
+.row p{
+  color: #ff00dd;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.formInputs input{
+  color: black;
+  background-color:white;
+  border: solid 1pt;
+  border-color: #303030;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 5px;
+  width: 80%;
+}
+input.nameInput{
+  width: 39%;
+}
+input.emailInput{
+  width: 39%;
+}
+input.messageInput{
+  padding-bottom: 150px;
+}
+form button{
+  border-color: #ff00dd;
+  border: solid 2px;
+  border-color: #ff00dd;
+  border-radius: 15px;
+  padding: 20px 40px;
+  text-align: left;
+  background-color: transparent;
+  color: #ff00dd;
+  font-size: 20px;
+  margin-top: -1%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 5px;
+}
+
+form button:hover{
+  color: black;
+  background-color: #ff00dd;
+  padding: 22px 42px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .allServices{
+    display: block;
+  } 
+}
